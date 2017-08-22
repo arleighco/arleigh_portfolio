@@ -71,11 +71,11 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 5px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(-15deg);
 }
 .tag {
   background-color: #efefef;
@@ -131,6 +131,12 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #000;
   color: #fff;
+}
+
+.goal-img {
+  border-radius: 5px;
+  display: block;
+  margin: auto;
 }
 
 footer {
